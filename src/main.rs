@@ -1,5 +1,6 @@
 mod two_sum;
 
 fn main() {
-    two_sum::two_sum(vec![0, 1 ,2], 0);
+    let r = two_sum::two_sum(vec![3, 2, 4], 6);
+    print!("{:?}", r);
 }
